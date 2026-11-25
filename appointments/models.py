@@ -5,7 +5,7 @@ from patients.models import Patient
 class Appointment(models.Model):
     STATUS_CHOICES = (
 
-        ('Pending', 'Pending'),
+        ('pending', 'Pending'),
         ('approved', 'Approved'),
         ('cancelled', 'Cancelled'),
         ('completed', 'Completed'),
